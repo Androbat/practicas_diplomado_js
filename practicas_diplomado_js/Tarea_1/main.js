@@ -6,7 +6,7 @@ button.addEventListener('click', function(){
     
     // select a ramdom color from color
     // check this
-    var selectRamdomColor = colors[Math.floor(Math.random()) * colors.length];
+    let selectRamdomColor = colors[Math.floor(Math.random()) * colors.length];
     
     let setNewcolor = document.getElementById('body');
 
